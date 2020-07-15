@@ -1,63 +1,4 @@
-﻿<<<<<<< HEAD
-﻿Proyecto: "AirMayhem"
-Integrantes Del Grupo O - TT :
-
-Gustavo Vergara
-Walter Gómez
-Andrés Kogan
-Ismael Boff López
-
-Descripción: Realizamos este proyecto con propósitos universitarios y con el objetivo de aprender 
-el desarrollo de programas/juegos en Python3.
-
-Objetivo Principal :
-
-El proyecto que se planea llevar a cabo es un video juego del tipo search and destroy multijugador en LAN donde 2-4 jugadores
-deberán matar a los aliens en el mapa
-
-Los jugadores aparecen cada uno en las esquinas del mapa tras lo cual empiezan a moverse buscando a los Aliens,.
-Durante su periplo en el mapa , al matar a los aliens estos se combierten en diferentes ítems que otorgarán habilidades especiales.
- - Tenemos el tiro triple el cual como su nombre indica genera un tiro en 3 direcciones siendo la central la del jugador 
-y las otras 2 a 30 grados cada una. 
- - tiro con rebote, que hace a la bala rebotar en las paredes
-  - tiro rapido que tira muchas balas una atrás de la otra
-  -tiro agujereador, que rompe el mapa
- - La híper-velocidad que hace que la nave incremente su velocidad.
-.
-
-
-Cada uno de estos poderes tiene una temporalidad diferente, la velocidad, disparo rápido y disparo triple durarán 10 segundos,
-
-
-La dinámica de movimiento y comandos están dadas por mouse y teclado.
-
-Con las flechas de teclado se determina el sentido del movimiento, mientras que con el mouse se dispara y se apunta con una mira,
-haciendo que la nave gire en sentido de donde se está apuntando. Es por esto que la nave tiene movimiento hacia adelante, los costados,
-y también hacia atrás. Los jugadores cuentan con un nivel de energía (Vida) el cual va decayendo a medida que reciben disparos, 
-cuando este llega a 0 el jugador muere y debe esperar a la siguiente partida.
-
-Los jugadores reciben puntaje destrucción de alines
-En cuanto al mapa este se ve desde una posición cenital y solo accedemos a una parte del mismo,
-de esta forma nunca sabemos claramente donde están los enemigos.
-
-Para encontrarlos nos guiamos porun minimapa en el costado inferior para ver su localización
-
-
-
-    ------ Herramientas Propuestas -------
- - Utilizamos el IDE PyCharm Community (Open Source)
- - Versión de Python 3 (Mas en específico 3.8.2)
- - Utilización de la Librería para Python, PyGame (facilita el desarrollo de video juegos)
- - GIT
- - Todo esto corriendo en un Sistema Operativo Linux (Ubuntu y Xubuntu)
-   
-    ------- Metodología de Trabajo --------
-Esto sería posible gracias a la herramienta de GIT la cual facilita comandos en la consola de Linux para sincronizar el progreso que 
-=======
-﻿Proyecto: "AirMayhem"
-Integrantes Del Grupo O - TT :
-
-Gustavo Vergara
+﻿Gustavo Vergara
 Walter Gómez
 Andrés Kogan
 Ismael Boff López
@@ -76,6 +17,7 @@ y las otras 2 a 35 grados cada una.
  - Tiro rápido que acelera drásticamente la cantidad de balasque tira la nave.
  - Tiro con rebote, hace que la bala rebote en el laberinto.
  - Tiro destructor que hace que la bala rompa el laberinto.
+ - Mira Laser.
  - Híper-velocidad que hace que la nave incremente su velocidad.
  - Linterna, oscurese el laberinto y solo podemos ver alrededor de la nave
 
